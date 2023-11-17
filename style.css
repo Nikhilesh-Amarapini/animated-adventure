@@ -1,0 +1,30 @@
+body{
+    background-color: lightgreen;
+}
+h1{
+    background-color: white;
+    color: blue;
+}
+#timer{
+    float: right;
+    margin-right: 20px;
+}
+#Score{
+    margin-left: 20px;
+}
+#doodle{
+    float: right;
+}
+canvas{
+    border:5px solid rgb(246, 246, 246);
+    border: radius 20px;
+    animation-name: example;
+    animation-duration: 1s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(77, 3, 93);}
+    to{box-shadow: 1px 1px 38px rgb(242, 3, 3);}
+}
